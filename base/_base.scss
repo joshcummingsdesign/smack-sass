@@ -2,4 +2,5 @@ body {
   font-size: $base__font-size;
   line-height: ($base__line/$base__font-size);
   font-family: $font-family--primary;
+  background-color: $body__background-color;
 }
