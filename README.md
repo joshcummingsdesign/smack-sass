@@ -1,5 +1,5 @@
 # Smack Sass
-A custom file structure for Sass projects. Based on the SMACSS methodology by Jonathan Snook and sassy-starter by Mina Markham.
+A file structure for Sass projects. Based on the SMACSS methodology by Jonathan Snook and sassy-starter by Mina Markham.
 
 ## File Structure
 
