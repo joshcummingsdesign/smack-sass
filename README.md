@@ -17,10 +17,10 @@ layout
   _index.scss       # manifest file that imports all layout styles
 
 modules
-  _index.scss       # manifest file that imports all modules styles
+  _index.scss       # manifest file that imports all module styles
 
 states
-  _index.scss       # manifest file that imports all states styles
+  _index.scss       # manifest file that imports all state styles
 
 utilities
   _functions.scss   # all the functions used in the project
