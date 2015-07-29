@@ -11,7 +11,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 
 ```
 root
-  styles.scss         # imports each manifest file from other folders into one file
+  styles.scss       # imports each manifest file from other folders into one file
 
 base
   _base.scss        # all the base styles for the project
