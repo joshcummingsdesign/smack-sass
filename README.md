@@ -1,6 +1,12 @@
 # Smack Sass
 A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and Modular Architecture for CSS ([SMACSS](smacss.com)) methodology from Jonathan Snook and the Block, Element, Modifier ([BEM](https://en.bem.info/method/definitions)) naming convention. Based on [Sassy Starter](https://github.com/minamarkham/sassy-starter) by Mina Markham.
 
+## Quick Start
+1. Fork & clone the git repo, or download zip file directly.
+2. Install Sass by running ```gem install sass```.
+3. Watch for changes by running ```sass --watch styles.scss```.
+4. Sass will create a styles.css file that you can use for your site.
+
 ## File Structure
 
 ```
@@ -29,3 +35,9 @@ utilities
   _index.scss       # manifest file that imports all utilities styles
   _mixins.scss      # all the mixins used in the project
 ```
+## Resources
+* [Sass](http://sass-lang.com/)
+* [SMACSS](https://smacss.com/)
+* [BEM](https://en.bem.info/method/definitions)
+* [Sassy Starter](https://github.com/minamarkham/sassy-starter)
+* [Normalize.css](http://necolas.github.io/normalize.css/)
