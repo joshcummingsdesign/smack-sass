@@ -1,5 +1,5 @@
 # Smack Sass
-A starter toolkit for [Sass](http://sass-lang.com) projects using the Scalable and Modular Architecture for CSS ([SMACSS](smacss.com)) methodology from Jonathan Snook and the Block Element Modifier ([BEM](https://en.bem.info)) naming convention. Based on [Sassy Starter](https://github.com/minamarkham/sassy-starter) by Mina Markham.
+A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and Modular Architecture for CSS ([SMACSS](smacss.com)) methodology from Jonathan Snook and the Block, Element, Modifier ([BEM](https://en.bem.info/method/definitions)) naming convention. Based on [Sassy Starter](https://github.com/minamarkham/sassy-starter) by Mina Markham.
 
 ## File Structure
 
