@@ -3,7 +3,7 @@
 	@return ($target / $context) * 1em;
 }
 
-// Call the color palette modifiers in color values
-@function palette($palette, $shade: 'base') {
-	@return map-get(map-get($color-shades, $palette), $shade);
+// Call the shade of color you want
+@function get-shade($color, $shade: 'base') {
+	@return map-get(map-get($color-shades, $color), $shade);
 }
