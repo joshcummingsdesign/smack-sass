@@ -28,7 +28,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 └── utilities
     ├── _functions.scss   # all of the functions used in the project
     ├── _globals.scss     # global variables
-    ├── _helpers.scss     # placeholder selectors and selectors for screen reader text
+    ├── _helpers.scss     # placeholder selectors, screen reader text, etc.
     ├── _index.scss       # manifest file, this imports all of the utilities files
     └── _mixins.scss      # all of the mixins used in the project
 ```
