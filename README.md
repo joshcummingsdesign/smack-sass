@@ -32,7 +32,7 @@ utilities
   _functions.scss   # all the functions used in the project
   _globals.scss     # global variables
   _helpers.scss     # placeholder selectors and selectors for screen reader text
-  _index.scss       # manifest file that imports all the utilities files
+  _index.scss       # manifest file that imports all the utility styles
   _mixins.scss      # all the mixins used in the project
 ```
 ## Resources
