@@ -1,0 +1,23 @@
+{
+  "name": "smack-sass",
+  "version": "1.0.0",
+  "description": "This package is used for autoprefixer in the Smack Sass starter kit.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshcummingsdesign/smack-sass.git"
+  },
+  "author": "Josh Cummings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshcummingsdesign/smack-sass/issues"
+  },
+  "homepage": "https://github.com/joshcummingsdesign/smack-sass#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-postcss": "^0.5.5"
+  }
+}
