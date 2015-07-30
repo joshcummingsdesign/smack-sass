@@ -3,6 +3,8 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 
 ## Quick Start
 1. Fork & clone the git repository, or click Download ZIP.
+2. Install Sass by running ```gem install sass```.
+3. Install the Grunt CLI by running ```npm install -g grunt-cli```.
 3. Watch for changes by running ```sass --watch scss:css```.
 4. Use Autoprefixer by running ```grunt```.
 
