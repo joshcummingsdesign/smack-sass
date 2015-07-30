@@ -1,5 +1,5 @@
 # Smack Sass
-A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and Modular Architecture for CSS ([SMACSS](smacss.com)) methodology by Jonathan Snook and the Block, Element, Modifier ([BEM](https://en.bem.info/method/definitions)) naming convention by Yandex. Based on [Sassy Starter](https://github.com/minamarkham/sassy-starter) by Mina Markham. Feel free to adapt this to your specific needs.
+A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and Modular Architecture for CSS ([SMACSS](smacss.com)) methodology by Jonathan Snook and the Block, Element, Modifier ([BEM](https://en.bem.info/method/definitions)) naming convention by Yandex. Based on [Sassy Starter](https://github.com/minamarkham/sassy-starter) by Mina Markham. Feel free to adapt Smack Sass to meet your specific needs.
 
 ## Quick Start
 1. Fork & clone the git repo, or download zip file directly.
@@ -41,3 +41,8 @@ utilities
 * [BEM](https://en.bem.info/method/definitions)
 * [Sassy Starter](https://github.com/minamarkham/sassy-starter)
 * [Normalize.css](http://necolas.github.io/normalize.css/)
+
+## Thank You
+* [Guil Hernandez](https://twitter.com/guilh) at [Sass break](http://sassbreak.com/about/) for help with some of the functions and mixins for this project.
+* [Mina Markham](https://twitter.com/MinaMarkham) for creating such a great tool with [Sassy Starter](https://github.com/minamarkham/sassy-starter).
+* [Jonathan Snook](https://twitter.com/snookca) for making CSS more organized with [SMACSS](https://smacss.com/).
