@@ -15,7 +15,7 @@
   }
 }
 
-// Switch to grid system at medium breakpoint
+// Switch to grid layout at medium breakpoint
 .grid__col {
   @include mq(medium) {
     @include g-columns;
