@@ -60,3 +60,11 @@
     }
   }
 }
+
+// Apply left margin to all but first column
+@mixin lefty($margin: 1em) {
+	& + & {
+	  margin-left: $margin;
+    @content;
+	}
+}
