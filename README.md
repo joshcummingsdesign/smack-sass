@@ -19,8 +19,8 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 │   └── _index.scss       # manifest file, this imports all of the layout files
 ├── modules
 │   └── _index.scss       # manifest file, this imports all of the modules files
-├── node_modules          # used for Grunt and Autoprefixer v5.2.0, this should not be modified
-├── package.json          # used for Grunt and Autoprefixer v5.2.0, this should not be modified
+├── node_modules          # for Grunt and Autoprefixer, should not be modified
+├── package.json          # for Grunt and Autoprefixer, should not be modified
 ├── scss
 │   └── styles.scss       # core manifest file, this outputs your styles.css file
 ├── states
