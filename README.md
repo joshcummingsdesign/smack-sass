@@ -14,26 +14,26 @@ root
   styles.scss       # core manifest file, this outputs your styles.css file
 
 base
-  _base.scss        # all the base styles for the project
-  _index.scss       # manifest file that imports all the base styles
+  _base.scss        # all of the base styles for the project
+  _index.scss       # manifest file, this imports all of the base files
   _normalize.scss   # normalize.css v3.0.2
 
 layout
   _grid.scss        # styles for a 12 column CSS grid
-  _index.scss       # manifest file that imports all the layout styles
+  _index.scss       # manifest file, this imports all of the layout files
 
 modules
-  _index.scss       # manifest file that imports all the module styles
+  _index.scss       # manifest file, this imports all of the modules files
 
 states
-  _index.scss       # manifest file that imports all the state styles
+  _index.scss       # manifest file, this imports all of the states files
 
 utilities
-  _functions.scss   # all the functions used in the project
+  _functions.scss   # all of the functions used in the project
   _globals.scss     # global variables
   _helpers.scss     # placeholder selectors and selectors for screen reader text
-  _index.scss       # manifest file that imports all the utilities files
-  _mixins.scss      # all the mixins used in the project
+  _index.scss       # manifest file, this imports all of the utilities files
+  _mixins.scss      # all of the mixins used in the project
 ```
 ## Resources
 * [Sass](http://sass-lang.com/)
