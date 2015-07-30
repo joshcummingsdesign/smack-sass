@@ -1,16 +1,19 @@
 // Font stacks
-$font-family--primary: 'Fauna One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family--secondary: 'Playfair Display', Georgia, Times, 'Times New Roman', serif;
+$font-family--primary: Georgia, Times, 'Times New Roman', serif;
+$font-family--secondary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font weights
+$font-weight--thin: 100;
+$font-weight--light: 300;
 $font-weight--medium: 400;
 $font-weight--bold: 700;
+$font-weight--ultra-bold: 900;
 
 // Body copy
 $base__font-size: 16px;
 $base__line: 24px;
 
-// Base colors
+// Colors
 $white: #fff;
 $black: #333;
 $grey: #bbb;

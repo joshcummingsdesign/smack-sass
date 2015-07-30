@@ -7,6 +7,13 @@
   }
 }
 
+// For pseudo-elements
+%pseudos {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
 // Screen reader text
 .hidden-text {
   border: 0;
@@ -17,11 +24,4 @@
   padding: 0;
   position: absolute;
   width: 1px;
-}
-
-// For pseudo-elements
-%pseudos {
-  display: block;
-  content: '';
-  position: absolute;
 }

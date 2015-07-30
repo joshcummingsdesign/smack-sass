@@ -28,7 +28,9 @@
     margin-top: 1em;
   }
   @include mq(medium) {
-    @include lefty(percentage($g-gutter-width / $context));
+    @include not-first() {
+      margin-left: percentage($g-gutter-width / $context);
+    }
     float: left;
     min-height: 1px;
     padding-left: 1em;
