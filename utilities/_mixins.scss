@@ -13,17 +13,17 @@
 }
 
 // Generate :before or :after pseudo-element shapes
-@mixin pseudo-el($el, $el-w: null, $el-h: null) {
-	@if $el == "before" or $el == "after" {
-	  &:#{$el} {
+@mixin pseudo-el($where, $width: null, $height: null) {
+	@if $where == "before" or $where == "after" {
+	  &:#{$where} {
 		  @extend %pseudos;
-		  width: $el-w;
-	  	height: $el-h;
+		  width: $width;
+	  	height: $height;
 	    @content;
 	  }
 	}
 	@else {
-    @error "`#{$el}` is not a valid pseudo-element.";
+    @error "`#{$where}` is not a valid pseudo-element.";
 	}
 }
 
