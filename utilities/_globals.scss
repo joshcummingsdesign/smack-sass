@@ -37,3 +37,11 @@ $color-primary: $black;
 $color-secondary: $white;
 $color-accent: $grey;
 $color-shadow: rgba($black, .2);
+
+// Transitions
+$trns-duration  : .2s;
+
+// Breakpoints
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1100px;

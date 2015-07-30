@@ -1,4 +1,40 @@
-// Generates :before or :after pseudo-element shapes
+// Create BEM element selectors
+@mixin e($element) {
+	&__#{$element} {
+    @content;
+  }
+}
+
+// Create BEM modifier selectors
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// Media queries
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      @content;
+    }
+  }
+  @else if $break == "medium" {
+    @media (min-width: $brkpoint-md + 1) {
+      @content;
+    }
+  }
+  @else if $break == "large" {
+    @media (min-width: $brkpoint-lg) {
+      @content;
+    }
+  }
+   @else {
+   	@error "`#{$break}` is not a valid breakpoint."
+  }
+}
+
+// Generate :before or :after pseudo-element shapes
 @mixin pseudo-el($el, $el-w: null, $el-h: null) {
 	@if $el == "before" or $el == "after" {
 	  &:#{$el} {
