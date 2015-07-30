@@ -18,3 +18,10 @@
   position: absolute;
   width: 1px;
 }
+
+// For pseudo-elements
+%pseudos {
+  display: block;
+  content: '';
+  position: absolute;
+}
