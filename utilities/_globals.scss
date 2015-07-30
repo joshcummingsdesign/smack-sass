@@ -41,7 +41,13 @@ $color-shadow: rgba($black, .2);
 // Transitions
 $trns-duration  : .2s;
 
+// Grid
+$g-col-width: 65px;
+$g-gutter-width: 20px;
+$g-col-count: 12;
+$g-cont-max-w: 1050px;
+
 // Breakpoints
-$brkpoint-sm    : 1px;
-$brkpoint-md    : 768px;
-$brkpoint-lg    : 1100px;
+$brkpoint-sm: 1px;
+$brkpoint-md: 768px;
+$brkpoint-lg: 1100px;

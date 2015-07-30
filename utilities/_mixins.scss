@@ -12,6 +12,21 @@
   }
 }
 
+// Generate :before or :after pseudo-element shapes
+@mixin pseudo-el($el, $el-w: null, $el-h: null) {
+	@if $el == "before" or $el == "after" {
+	  &:#{$el} {
+		  @extend %pseudos;
+		  width: $el-w;
+	  	height: $el-h;
+	    @content;
+	  }
+	}
+	@else {
+    @error "`#{$el}` is not a valid pseudo-element.";
+	}
+}
+
 // Media queries
 @mixin mq($break) {
   @if $break == "small" {
@@ -34,17 +49,14 @@
   }
 }
 
-// Generate :before or :after pseudo-element shapes
-@mixin pseudo-el($el, $el-w: null, $el-h: null) {
-	@if $el == "before" or $el == "after" {
-	  &:#{$el} {
-		  @extend %pseudos;
-		  width: $el-w;
-	  	height: $el-h;
-	    @content;
-	  }
-	}
-	@else {
-    @error "`#{$el}` is not a valid pseudo-element.";
-	}
+// Calculate grid columns
+@mixin g-columns {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count ,$g-gutter-width) !global;
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    &--#{$i} {
+      width: percentage($target / $context);
+    }
+  }
 }

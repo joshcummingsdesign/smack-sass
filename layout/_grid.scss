@@ -1,1 +1,6 @@
-// Styles for a 12 column CSS grid
+// Switch to grid system at medium breakpoint
+.grid__col {
+  @include mq(medium) {
+    @include g-columns;
+  }
+}
