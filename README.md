@@ -48,6 +48,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 ```
 ## Release Notes
 * Smack Sass v0.0.1
+* Normalize.css v3.0.2
 * Grunt v0.4.5
 * Autoprefixer v5.2.1
 * Uglify v0.9.1
