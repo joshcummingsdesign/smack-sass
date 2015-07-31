@@ -1,6 +1,6 @@
 {
   "name": "smack-sass",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This package is used for grunt tasks in the Smack Sass starter kit.",
   "main": "index.html",
   "scripts": {
