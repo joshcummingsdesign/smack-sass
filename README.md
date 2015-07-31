@@ -30,7 +30,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 │   └── _index.scss         # layout manifest file
 ├── modules
 │   └── _index.scss         # modules manifest file
-├── node_modules            # node modules for Grunt
+├── node_modules            # Node modules for Grunt
 ├── package.json            # JSON data for Grunt
 ├── scss
 │   └── styles.scss         # core manifest file
