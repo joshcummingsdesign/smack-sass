@@ -31,7 +31,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 ├── modules
 │   └── _index.scss         # modules manifest file
 ├── node_modules            # node modules for Grunt
-├── package.json            # JSON file for Grunt
+├── package.json            # JSON data for Grunt
 ├── scss
 │   └── styles.scss         # core manifest file
 ├── src
