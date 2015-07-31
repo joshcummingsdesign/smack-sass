@@ -10,16 +10,35 @@ module.exports = function(grunt) {
           require('autoprefixer-core')({browsers: '> 5%'}),
         ]
       },
-      dist: {
+      build: {
         src: 'css/*.css'
+      }
+    },
+    uglify: {
+      build: {
+        src: 'src/js/*.js',
+        dest: 'js/script.min.js'
+      },
+      dev: {
+        options: {
+          beautify: true,
+          mangle: false,
+          compress: false,
+          preserveComments: 'all'
+        },
+        src: 'src/js/*.js',
+        dest: 'js/script.min.js'
       }
     }
   });
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Register tasks
-  grunt.registerTask('default', ['postcss:dist']);
+  grunt.registerTask('prefix', ['postcss:build']);
+  grunt.registerTask('buildjs', ['uglify:build']);
+  grunt.registerTask('cleanjs', ['uglify:dev']);
 
 };
