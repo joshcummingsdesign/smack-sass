@@ -46,6 +46,12 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
     ├── _index.scss         # utilities manifest file
     └── _mixins.scss        # all of the mixins for the project
 ```
+## Release Notes
+* smack-sass v0.0.1
+* grunt v0.4.5
+* grunt-contrib-uglify v0.9.1
+* grunt-postcss v0.5.5
+
 ## Resources
 * [Sass](http://sass-lang.com/)
 * [SMACSS](https://smacss.com/)
