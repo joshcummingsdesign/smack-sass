@@ -1,7 +1,7 @@
 {
   "name": "smack-sass",
   "version": "1.0.0",
-  "description": "This package is used for autoprefixer in the Smack Sass starter kit.",
+  "description": "This package is used for grunt tasks in the Smack Sass starter kit.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
