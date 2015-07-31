@@ -47,10 +47,10 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
     └── _mixins.scss        # all of the mixins for the project
 ```
 ## Release Notes
-* smack-sass v0.0.1
-* grunt v0.4.5
-* grunt-contrib-uglify v0.9.1
-* grunt-postcss v0.5.5
+* Smack Sass v0.0.1
+* Grunt v0.4.5
+* Autoprefixer v5.2.1
+* Uglify v0.9.1
 
 ## Resources
 * [Sass](http://sass-lang.com/)
