@@ -39,6 +39,8 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
 │       └── script.js       # start writing your JavaScript here
 ├── states
 │   └── _index.scss         # states manifest file
+├── themes
+│   └── _index.scss         # themes manifest file
 └── utilities
     ├── _functions.scss     # all of the functions for the project
     ├── _globals.scss       # global variables
@@ -47,7 +49,7 @@ A starter kit for [Sass](http://sass-lang.com) projects using the Scalable and M
     └── _mixins.scss        # all of the mixins for the project
 ```
 ## Release Notes
-* Smack Sass v0.0.1
+* Smack Sass v1.0
 * Normalize.css v3.0.2
 * Grunt v0.4.5
 * Autoprefixer v5.2.1
